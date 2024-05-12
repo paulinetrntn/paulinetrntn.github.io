@@ -293,6 +293,14 @@
     border: none;
 }
 
+.modal-hide {
+    display: none;
+}
+
+.black-icon {
+    color: black;
+}
+
 .popup-modal {
     background: #fff;
 }

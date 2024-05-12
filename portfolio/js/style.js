@@ -49,18 +49,43 @@ $(document).ready(function () {
     // Récupérez tous les boutons de fermeture des modales
     var closeButtons = document.querySelectorAll('.close-popup-modal');
 
-// Ajoutez un écouteur d'événements à chaque bouton de fermeture
-    closeButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-            // Recherchez le parent de la classe "popup-modal" pour la modal actuelle
-            var modal = this.closest('.popup-modal');
-            // Vérifiez si la modal a été trouvée
-            if (modal) {
-                // Ajoutez la classe "hide-modal" à la modal pour la masquer
-                modal.classList.add('hide-modal');
-            }
-        });
+// Pour fermer la première modal
+    document.getElementById('btn-close-modal1').addEventListener('click', function() {
+        document.getElementById('animatedModal1').classList.remove('modal-show');
+        document.getElementById('animatedModal1').classList.add('modal-hide'); // Ajoute une classe de masquage sans animation
     });
+
+// Pour fermer la deuxième modal
+    document.getElementById('btn-close-modal2').addEventListener('click', function() {
+        document.getElementById('animatedModal2').classList.remove('modal-show');
+        document.getElementById('animatedModal2').classList.add('modal-hide'); // Ajoute une classe de masquage sans animation
+    });
+
+// Pour fermer la troisième modal
+    document.getElementById('btn-close-modal3').addEventListener('click', function() {
+        document.getElementById('animatedModal3').classList.remove('modal-show');
+        document.getElementById('animatedModal3').classList.add('modal-hide'); // Ajoute une classe de masquage sans animation
+    });
+
+// Pour fermer la quatrième modal
+    document.getElementById('btn-close-modal4').addEventListener('click', function() {
+        document.getElementById('animatedModal4').classList.remove('modal-show');
+        document.getElementById('animatedModal4').classList.add('modal-hide'); // Ajoute une classe de masquage sans animation
+    });
+
+// Pour fermer la cinquième modal
+    document.getElementById('btn-close-modal5').addEventListener('click', function() {
+        document.getElementById('animatedModal5').classList.remove('modal-show');
+        document.getElementById('animatedModal5').classList.add('modal-hide'); // Ajoute une classe de masquage sans animation
+    });
+
+// Pour fermer la sixième modal
+    document.getElementById('btn-close-modal6').addEventListener('click', function() {
+        document.getElementById('animatedModal6').classList.remove('modal-show');
+        document.getElementById('animatedModal6').classList.add('modal-hide'); // Ajoute une classe de masquage sans animation
+    });
+
+
 
 
     const triggerTabList = document.querySelectorAll('#nav-tab button')
