@@ -274,10 +274,10 @@
     text-align: center;
 }
 
-.portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
+/*.portfolio_item img {*/
+/*    -webkit-filter: grayscale(100%);*/
+/*    filter: grayscale(100%);*/
+/*}*/
 
 .portfolio-padding {
     padding: 50px 0;
@@ -379,6 +379,13 @@
         margin: 10px 0 0 0;
     }
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* changer la couleur des flèches en noir */
+    /* Vous pouvez également modifier d'autres propriétés ici, comme la taille ou la forme des flèches */
+}
+
 
 /*.active-tab {*/
 /*    background-color: #1221c1c4;*/
