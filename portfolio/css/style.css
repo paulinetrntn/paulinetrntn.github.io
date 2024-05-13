@@ -115,6 +115,15 @@
     background: #1221c19f;
 }
 
+.al{
+    position: absolute;
+    top: 44%;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .social{
     position: absolute;
     top: 44%;
@@ -309,7 +318,7 @@
     float: right;
     margin: 20px;
     font-size: 22px;
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
     -webkit-transition: all .3s;
     transition: all .3s;
